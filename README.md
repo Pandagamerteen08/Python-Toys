@@ -61,12 +61,12 @@ Below is the master catalog of all available toys categorized by their operation
 
 ### 1. Audio & Sound Generation
 
-* **[`audio/beatbox/beatbox.py`](https://www.google.com/search?q=audio/beatbox/beatbox.py)**
+* **[`audio/beatbox/beatbox.py`](audio/beatbox/beatbox.py)**
 * *What it does:* Translates plain-English text prompts into professional stereo beatbox tracks exported as `.wav` files, with optional multi-channel MIDI drum exports.
 * *Key Features:* Features 33 distinct synthesized mouth-sound voices (kicks, snares, hi-hats, scratches, bass hums, lip rolls, throat bass), 25 style presets (trap, dnb, garage, waltz, dubstep), automatic song arrangement structures (intro, groove, breakdown, drop), swing timing adjustment, and custom sample loading (`--samples`).
 
 
-* **[`audio/synth/synth.py`](https://www.google.com/search?q=audio/synth/synth.py)**
+* **[`audio/synth/synth.py`](audio/synth/synth.py)**
 * *What it does:* Composes complete musical arrangements (chord progressions, basslines, melodic leads, and percussion) directly from natural language prompts.
 * *Key Features:* Generates fully mastered WAV audio streams alongside complete MIDI file exports. Handles tempo, emotional keys, instrumentation weighting, and dynamic envelope shaping entirely through standard library binary buffer writing.
 
@@ -74,17 +74,17 @@ Below is the master catalog of all available toys categorized by their operation
 
 ### 2. Procedural Generation & Worldbuilding
 
-* **[`worldgen/worldgen.py`](https://www.google.com/search?q=worldgen/worldgen.py)**
+* **[`worldgen/worldgen.py`](worldgen/worldgen.py)**
 * *What it does:* Constructs sprawling fantasy world maps from scratch using multi-octave Perplex/Simplex noise elevation modeling, hydraulic erosion simulation, biome temperature/moisture mapping, river carving algorithms, and procedural settlement generation.
 * *Key Features:* Outputs interactive terminal ASCII grids or high-resolution PNG map images complete with a detailed textual gazetteer describing every landmark and town.
 
 
-* **[`dungeon/dungeon.py`](https://www.google.com/search?q=dungeon/dungeon.py)**
+* **[`dungeon/dungeon.py`](dungeon/dungeon.py)**
 * *What it does:* Generates intricate underground complexes using 5 distinct procedural dungeon generation algorithms, complete with shadowcasting field-of-view (FOV) rendering.
 * *Key Features:* Includes a fully playable terminal roguelike adventure mode (WASD / arrow keys / vi-keys) and an automated A* pathfinding bot mode that explores and clears dungeons autonomously.
 
 
-* **[`namegen/namegen.py`](https://www.google.com/search?q=namegen/namegen.py)**
+* **[`namegen/namegen.py`](namegen/namegen.py)**
 * *What it does:* Serves as an advanced procedural naming engine offering 69 distinct name generation strategies.
 * *Key Features:* Includes 13 invented phonotactic "languages" with realistic phonetic rules, Markov chain transition models, structural formatting templates (`"{title} {elvish} of {town}"`), and custom training capabilities on your own text files.
 
@@ -92,12 +92,12 @@ Below is the master catalog of all available toys categorized by their operation
 
 ### 3. Games, Puzzles & Procedural Text
 
-* **[`maze/maze.py`](https://www.google.com/search?q=maze/maze.py)**
+* **[`maze/maze.py`](maze/maze.py)**
 * *What it does:* Generates and solves mazes across 9 advanced generation algorithms (Backtracker, Prim, Kruskal, Wilson, Aldous-Broder, Hunt-and-Kill, Sidewinder, Binary Tree, Recursive Division) and 6 solving strategies.
 * *Key Features:* Supports 7 geometric shapes (rectangular, circular, ringed, diamond, triangular, cross, heart), live terminal animation, braiding loops, rigor bias statistics, SVG/PNG export, and a fully playable interactive mode with hint systems.
 
 
-* **[`story/storyspark.py`](https://www.google.com/search?q=story/storyspark.py)**
+* **[`story/storyspark.py`](story/storyspark.py)**
 * *What it does:* A lightweight Tracery-style generative grammar engine pre-loaded with 30 narrative generator templates.
 * *Key Features:* Instantly spins up story outlines, quest hooks, fantasy monster stats, and ancient prophecies. Features linguistic modifiers (`.capitalize`, `.a`, `.s`), variable state persistence, dice notation parsing (`{3d6}`), numerical ranges, inline choices, weighted symbol resolution, and a Markov text babbler.
 
@@ -105,17 +105,17 @@ Below is the master catalog of all available toys categorized by their operation
 
 ### 4. Mathematics, Fractals & Visualizations
 
-* **[`math/fractals/fractals.py`](https://www.google.com/search?q=math/fractals/fractals.py)**
+* **[`math/fractals/fractals.py`](math/fractals/fractals.py)**
 * *What it does:* Renders 9 complex fractal families (Mandelbrot, Julia, Burning Ship, Tricorn, Celtic, Multibrot, Phoenix, Newton, Magnet) with 5 coloring modes and 12 distinct color palettes.
 * *Key Features:* Leverages multi-core CPU parallelism, hand-written raw PNG encoders, a custom LZW animated-GIF encoder, and an interactive real-time explorer mode with pan, zoom, and dynamic Julia set projection.
 
 
-* **[`math/lsystem/lsystem.py`](https://www.google.com/search?q=lsystem.py)**
+* **[`math/lsystem/lsystem.py`](math/lsystem/lsystem.py)**
 * *What it does:* Simulates 24 botanical and mathematical L-system presets (dragon curves, Hilbert space-filling curves, branching fractals, and plant models).
 * *Key Features:* Supports stochastic rewriting rules, terminal Braille canvas rendering, and high-resolution vector SVG and raster PNG image generation.
 
 
-* **[`math/sortviz/sortviz.py`](https://www.google.com/search?q=sortviz.py)**
+* **[`math/sortviz/sortviz.py`](math/sortviz/sortviz.py)**
 * *What it does:* Visualizes 18 classic sorting algorithms directly in the terminal interface.
 * *Key Features:* Race multiple algorithms side-by-side in real-time, execute comprehensive benchmark suites across various array sizes, or sonify sorting comparisons into rhythmic WAV audio files.
 
@@ -123,22 +123,22 @@ Below is the master catalog of all available toys categorized by their operation
 
 ### 5. Simulations, Cellular Automata & Cryptography
 
-* **[`simulations/simlab.py`](https://www.google.com/search?q=simulations/simlab.py)**
+* **[`simulations/simlab.py`](simulations/simlab.py)**
 * *What it does:* Executes 7 hypnotic mathematical and physical terminal simulations.
 * *Key Features:* Covers Boids flocking behavior, N-body gravitational orbital mechanics (figure-eight choreography), chaotic double pendulums, sandpile avalanche models, Lorenz strange attractors, reaction-diffusion chemical systems, and Ising magnetic field models.
 
 
-* **[`simulations/lifegame.py`](https://www.google.com/search?q=simulations/lifegame.py)**
+* **[`simulations/lifegame.py`](simulations/lifegame.py)**
 * *What it does:* Simulates Conway’s Game of Life alongside 10 alternative cellular automata rulesets (HighLife, Seeds, Day & Night, etc.).
 * *Key Features:* Includes 13 classic historical patterns, RLE pattern file import, Wolfram 1D elementary cellular automata, Langton’s ant, Brian's Brain, automatic pattern recognition, and GIF/PNG export.
 
 
-* **[`utilities/cipher.py`](https://www.google.com/search?q=cipher.py)**
+* **[`utilities/cipher.py`](utilities/cipher.py)**
 * *What it does:* Implements 27 classical cryptographic ciphers and text encodings.
 * *Key Features:* Features a fully authentic Enigma M3 machine simulation (configurable rotors I-VIII, ring settings, and plugboard pairs) alongside automated cryptanalytic crackers for Caesar, Vigenère, and monoalphabetic substitution ciphers.
 
 
-* **[`utilities/randomizer.py`](https://www.google.com/search?q=utilities/randomizer.py)**
+* **[`utilities/randomizer.py`](utilities/randomizer.py)**
 * *What it does:* A massive Swiss-army knife utility offering 94 distinct subcommands.
 * *Key Features:* Includes advanced dice rolling (`4d6kh3`), 18 statistical probability distributions, cryptographically secure password and passphrase generation, test data synthesis (fake emails, phone numbers, UUIDs), card game simulations, Sudoku puzzle generation, and over 1,700 built-in trivia items.
 
@@ -223,10 +223,10 @@ The comprehensive test suite covers voice synthesis rendering, seed determinism,
 
 ## Contributing
 
-We warmly welcome new contributions, toys, and improvements! Please review [CONTRIBUTING.md](https://www.google.com/search?q=CONTRIBUTING.md) for detailed structural guidelines, thematic folder conventions, branching models, and coding style requirements before submitting a pull request.
+We warmly welcome new contributions, toys, and improvements! Please review [CONTRIBUTING.md](CONTRIBUTING.md) for detailed structural guidelines, thematic folder conventions, branching models, and coding style requirements before submitting a pull request.
 
 ---
 
 ## License
 
-This project is open-source software released under the terms of the **MIT License**—see [LICENSE](https://www.google.com/search?q=LICENSE) for full legal details.
+This project is open-source software released under the terms of the **MIT License**—see [LICENSE](LICENSE) for full legal details.
